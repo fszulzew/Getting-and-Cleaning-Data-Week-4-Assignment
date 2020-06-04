@@ -44,4 +44,4 @@ library(dplyr)
   colnames(subject_merge) <- "subject"
   xy_merge <- cbind(x_merge, activitylabel, subject_merge)
   tidydata <- xy_merge %>% group_by(activitylabel, subject) %>% summarise_each(funs(mean))
-  write.table(tidydata, file = "./tidydataset.txt", row.names = FALSE, col.names = TRUE)
+  write.table(tidydata, file = "./tidydataset.txt", row.names = FALSE)
