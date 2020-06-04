@@ -1,10 +1,10 @@
 # Getting-and-Cleaning-Data-Week-4-Assignment
 
-## Repository for the Coursera "Getting and Cleaning Data" Assignment Week 4. 
+## README for the Repository for the Coursera "Getting and Cleaning Data" Assignment Week 4. 
 
 ### This repo contains the following files:
 
-#### 1. "codebook.md": descibes the background information, variables, and explains the analyses performed by run_analysis.R
+#### 1. "CodeBook.md": describes the background information, variables, and explains the analyses performed by run_analysis.R
 #### 2. "run_analysis.R": contains the R code to generate the file tidydataset.txt. It performs the following analyses.
 
     1. Merges the training and the test sets to create one data set.
